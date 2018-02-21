@@ -13,18 +13,20 @@ import TimeRegister from './components/TimeRegister';
 class SitePwa extends JSXComponent {
 	render() {
 		return (
-			<div>
+			<div class="site-pwa">
 				<Header/>
-				<Router
-				component={LoginForm}
-				path="/login-form" />
-				<Router
-				component={ClockinForm}
-				path="/clockin-form" />
-				<Router
-				component={TimeRegister}
-				path="/time-register" />
-				<Footer/>
+				<main class="container">
+					<Router
+					component={LoginForm}
+					path="/static/login-form" />
+					<Router
+					component={ClockinForm}
+					path="/static/clockin-form" />
+					<Router
+					component={TimeRegister}
+					path="/static/time-register" />
+				</main>
+				<Footer class="footer"/>
 			</div>
 		);
 	}

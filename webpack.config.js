@@ -28,7 +28,7 @@ module.exports = {
 	output: {
 		library: 'metal',
 		libraryTarget: 'this',
-		filename: './build/globals/site-pwa.js'
+		filename: './static/site-pwa.js'
 	},
 	plugins: [
 		new webpack.optimize.ModuleConcatenationPlugin()

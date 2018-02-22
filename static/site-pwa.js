@@ -20890,50 +20890,39 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Hearder = function (_JSXComponent) {
-	_inherits(Hearder, _JSXComponent);
+var Header = function (_JSXComponent) {
+	_inherits(Header, _JSXComponent);
 
-	function Hearder() {
-		_classCallCheck(this, Hearder);
+	function Header() {
+		_classCallCheck(this, Header);
 
-		return _possibleConstructorReturn(this, (Hearder.__proto__ || Object.getPrototypeOf(Hearder)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
 	}
 
-	_createClass(Hearder, [{
+	_createClass(Header, [{
 		key: 'render',
 		value: function render() {
 			IncrementalDOM.elementOpen('nav', null, null, 'class', 'navbar navbar-expand-lg navbar-light bg-light');
-			IncrementalDOM.elementOpen('a', null, null, 'class', 'navbar-brand', 'href', '#');
-			IncrementalDOM.text('PWA Metal.js - TOP');
-			IncrementalDOM.elementClose('a');
-			IncrementalDOM.elementOpen('div', null, null, 'class', 'collapse navbar-collapse', 'id', 'navbarNav');
-			IncrementalDOM.elementOpen('ul', null, null, 'class', 'navbar-nav mr-auto');
+			IncrementalDOM.elementOpen('div', null, null, 'class', 'container-fluid');
+			IncrementalDOM.elementOpen('ul', null, null, 'class', 'nav nav-pills');
 			IncrementalDOM.elementOpen('li', null, null, 'class', 'nav-item');
 			IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '#');
-			IncrementalDOM.text('Home ');
-			IncrementalDOM.elementOpen('span', null, null, 'class', 'sr-only');
-			IncrementalDOM.text('(current)');
-			IncrementalDOM.elementClose('span');
+			IncrementalDOM.text('Home');
 			IncrementalDOM.elementClose('a');
 			IncrementalDOM.elementClose('li');
 			IncrementalDOM.elementOpen('li', null, null, 'class', 'nav-item');
 			IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '/static/login-form');
-			IncrementalDOM.text('Pontos');
+			IncrementalDOM.text('Login');
 			IncrementalDOM.elementClose('a');
 			IncrementalDOM.elementClose('li');
 			IncrementalDOM.elementOpen('li', null, null, 'class', 'nav-item');
 			IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '/static/clockin-form');
-			IncrementalDOM.text('Cadastrar Pontos');
+			IncrementalDOM.text('Clockin');
 			IncrementalDOM.elementClose('a');
 			IncrementalDOM.elementClose('li');
 			IncrementalDOM.elementOpen('li', null, null, 'class', 'nav-item');
 			IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '/static/time-register');
-			IncrementalDOM.text('Sobre');
-			IncrementalDOM.elementClose('a');
-			IncrementalDOM.elementClose('li');
-			IncrementalDOM.elementOpen('li', null, null, 'class', 'nav-item');
-			IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '#');
-			IncrementalDOM.text('Login');
+			IncrementalDOM.text('Time Register');
 			IncrementalDOM.elementClose('a');
 			IncrementalDOM.elementClose('li');
 			IncrementalDOM.elementClose('ul');
@@ -20942,10 +20931,10 @@ var Hearder = function (_JSXComponent) {
 		}
 	}]);
 
-	return Hearder;
+	return Header;
 }(_metalJsx2.default);
 
-exports.default = Hearder;
+exports.default = Header;
 
 /***/ }),
 /* 85 */
@@ -20999,24 +20988,24 @@ var Footer = function (_JSXComponent) {
             IncrementalDOM.elementOpen('h5', null, null, 'class', 'text-uppercase');
             IncrementalDOM.text('Links');
             IncrementalDOM.elementClose('h5');
-            IncrementalDOM.elementOpen('ul', null, null, 'class', 'list-unstyled list-group');
+            IncrementalDOM.elementOpen('ul', null, null, 'class', 'list-unstyled');
             IncrementalDOM.elementOpen('li');
-            IncrementalDOM.elementOpen('a', null, null, 'class', 'text-light text-lighten-3', 'href', '#!');
+            IncrementalDOM.elementOpen('a', null, null, 'class', 'text-light nav-link text-lighten-3', 'href', '#!');
             IncrementalDOM.text('Link 1');
             IncrementalDOM.elementClose('a');
             IncrementalDOM.elementClose('li');
             IncrementalDOM.elementOpen('li');
-            IncrementalDOM.elementOpen('a', null, null, 'href', '#!');
+            IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '#!');
             IncrementalDOM.text('Link 2');
             IncrementalDOM.elementClose('a');
             IncrementalDOM.elementClose('li');
             IncrementalDOM.elementOpen('li');
-            IncrementalDOM.elementOpen('a', null, null, 'href', '#!');
+            IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '#!');
             IncrementalDOM.text('Link 3');
             IncrementalDOM.elementClose('a');
             IncrementalDOM.elementClose('li');
             IncrementalDOM.elementOpen('li');
-            IncrementalDOM.elementOpen('a', null, null, 'href', '#!');
+            IncrementalDOM.elementOpen('a', null, null, 'class', 'nav-link', 'href', '#!');
             IncrementalDOM.text('Link 4');
             IncrementalDOM.elementClose('a');
             IncrementalDOM.elementClose('li');

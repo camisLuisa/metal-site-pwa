@@ -18,10 +18,10 @@ class Footer extends JSXComponent {
                         <div class="col l4 offset-l2 s12">
                             <h5 class="text-uppercase">Links</h5>
                             <ul class="list-unstyled">
-                                <li><a class="text-light text-lighten-3" href="#!">Link 1</a></li>
-                                <li><a href="#!">Link 2</a></li>
-                                <li><a href="#!">Link 3</a></li>
-                                <li><a href="#!">Link 4</a></li>
+                                <li><a class="text-light nav-link text-lighten-3" href="#!">Link 1</a></li>
+                                <li><a class="nav-link" href="#!">Link 2</a></li>
+                                <li><a class="nav-link" href="#!">Link 3</a></li>
+                                <li><a class="nav-link" href="#!">Link 4</a></li>
                             </ul>
                         </div>
                   

@@ -1,6 +1,0 @@
-{
-    "name": "Site PWA",
-    "short_name": "SPWA",
-    "display": "minimal-ui",
-    "start_url": "index.html"
-}

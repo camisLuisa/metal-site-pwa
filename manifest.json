@@ -1,0 +1,20 @@
+{
+    "name": "Site PWA",
+    "short_name": "SPWA",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/calendar.png",
+            "sizes": "128x128",
+            "type": "images/png"
+
+        },
+        {
+            "src": "images/calendar144.png",
+            "sizes": "144x144",
+            "type": "images/png"
+
+        }
+    ]
+}

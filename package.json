@@ -36,7 +36,8 @@
 		"ajv": "^6.1.1",
 		"bootstrap": "^4.0.0",
 		"metal-jsx": "^2.0.0",
-		"metal-router": "^3.7.1"
+		"metal-router": "^3.7.1",
+		"server-http": "^1.0.1"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.4.5",

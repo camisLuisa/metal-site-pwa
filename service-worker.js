@@ -1,8 +1,7 @@
-var CACHE_NAME = 'spwa-v1';
+var CACHE_NAME = 'spwa-v2';
 var urlsToCache = [
-    './site-pwa.js',
-    './index.html',
-    './manifest.json',
+    '/',
+    'static/site-pwa.js',
 ];
 
 self.addEventListener('install', function(event) {

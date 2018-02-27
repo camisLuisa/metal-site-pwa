@@ -1,9 +1,9 @@
-var CACHE_NAME = 'spwa-v6';
+var CACHE_NAME = 'spwa-v11';
 var urlsToCache = [
     '/',
     '/static/site-pwa.js',
-    '/images/calendar.pgn',
-    '/images/calendar144.pgn',
+    '/images/calendar.png',
+    '/images/calendar144.png',
 ];
 
 self.addEventListener('install', function(event) {
